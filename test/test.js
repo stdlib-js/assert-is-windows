@@ -37,7 +37,7 @@ tape( 'the main export is `true` if the current process is running on Windows', 
 	var IS_WINDOWS;
 
 	IS_WINDOWS = proxyquire( './../lib', {
-		'@stdlib/os/platform': 'win32'
+		'@stdlib/os-platform': 'win32'
 	});
 	t.equal( IS_WINDOWS, true, 'is true' );
 	t.end();
@@ -47,7 +47,7 @@ tape( 'the main export is `false` if the current process is not running on Windo
 	var IS_WINDOWS;
 
 	IS_WINDOWS = proxyquire( './../lib', {
-		'@stdlib/os/platform': 'darwin'
+		'@stdlib/os-platform': 'darwin'
 	});
 	t.equal( IS_WINDOWS, false, 'is false' );
 	t.end();
