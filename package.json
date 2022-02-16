@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-windows",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Boolean indicating if the current process is running on Windows.",
   "license": "Apache-2.0",
   "author": {
