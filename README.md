@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import IS_WINDOWS from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-windows@esm/index.mjs';
+import IS_WINDOWS from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-windows@v0.2.2-esm/index.mjs';
 ```
 
 #### IS_WINDOWS
@@ -71,7 +71,7 @@ console.log( IS_WINDOWS );
 <script type="module">
 
 import PLATFORM from 'https://cdn.jsdelivr.net/gh/stdlib-js/os-platform@esm/index.mjs';
-import IS_WINDOWS from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-windows@esm/index.mjs';
+import IS_WINDOWS from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-windows@v0.2.2-esm/index.mjs';
 
 if ( IS_WINDOWS ) {
     console.log( 'Running on Windows...' );
