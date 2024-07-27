@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import IS_WINDOWS from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-windows@deno/mod.js';
+import IS_WINDOWS from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-windows@v0.2.2-deno/mod.js';
 ```
 
 #### IS_WINDOWS
@@ -66,7 +66,7 @@ console.log( IS_WINDOWS );
 
 ```javascript
 import PLATFORM from 'https://cdn.jsdelivr.net/gh/stdlib-js/os-platform@deno/mod.js';
-import IS_WINDOWS from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-windows@deno/mod.js';
+import IS_WINDOWS from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-windows@v0.2.2-deno/mod.js';
 
 if ( IS_WINDOWS ) {
     console.log( 'Running on Windows...' );
